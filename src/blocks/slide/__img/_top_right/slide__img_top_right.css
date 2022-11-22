@@ -1,0 +1,28 @@
+.slide__img_top_right {
+  grid-area: top-right;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 1510px) {
+  .slide__img_top_right {
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 1470px) {
+  .slide__img_top_right {
+    margin-right: 70px;
+  }
+}
+
+@media screen and (max-width: 966px) {
+  .slide__img_top_right {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .slide__img_top_right {
+    margin-right: 0;
+  }
+}

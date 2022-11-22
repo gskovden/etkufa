@@ -1,0 +1,10 @@
+.intelligence__img {
+  width: 350px;
+  grid-area: img;
+}
+
+@media screen and (max-width: 360px) {
+  .intelligence__img {
+    width: 300px;
+  }
+}

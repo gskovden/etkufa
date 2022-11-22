@@ -1,0 +1,19 @@
+.intelligence__title {
+  font-size: 36px;
+  line-height: 1.55;
+  color: #ffa90b;
+  font-weight: 700;
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .intelligence__title {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .intelligence__title {
+    font-size: 24px;
+  }
+}

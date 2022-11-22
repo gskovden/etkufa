@@ -1,0 +1,6 @@
+.burger__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+}

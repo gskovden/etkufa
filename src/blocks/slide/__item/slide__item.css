@@ -1,0 +1,19 @@
+.slide__item {
+  display: grid;
+  grid-template-areas: 
+  "top-left top-right"
+  "bottom-left bottom-right";
+  justify-items: end;
+}
+
+@media screen and (max-width: 930px) {
+  .slide__item {
+    justify-items: center;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .slide__item {
+    justify-content: space-between;
+  }
+}

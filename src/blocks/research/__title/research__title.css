@@ -1,0 +1,9 @@
+.research__title {
+  display: inline-flex;
+  position: relative;
+  top: -300px;
+  font-size: 80px;
+  text-transform: uppercase;
+  background: rgb(255, 255, 255);
+  margin-left: 100px;
+}

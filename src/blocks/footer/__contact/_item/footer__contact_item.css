@@ -1,0 +1,21 @@
+.footer__contact_item {
+  color: rgb(142, 142, 142);
+}
+
+@media screen and (max-width: 1500px) {
+  .footer__contact_item {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__contact_item {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__contact_item {
+    margin: 0;
+  }
+}

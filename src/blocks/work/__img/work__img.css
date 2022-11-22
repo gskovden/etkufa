@@ -1,0 +1,12 @@
+.work__img {
+  width: 120px;
+  grid-area: img;
+  margin-right: 50px;
+}
+
+@media screen and (max-width: 640px) {
+  .work__img {
+    width: 80px;
+    margin-right: 20px;
+  }
+}

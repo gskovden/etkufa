@@ -1,0 +1,15 @@
+.item__img_height {
+  height: 353px;
+}
+
+@media screen and (max-width: 550px) {
+  .item__img_height {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .item__img_height {
+    height: 200px;
+  }
+}

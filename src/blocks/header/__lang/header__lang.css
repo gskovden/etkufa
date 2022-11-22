@@ -1,0 +1,25 @@
+.header__lang {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__lang {
+    width: 20%;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .header__lang {
+    margin: 5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header__lang {
+    display: none;
+  }
+}

@@ -1,0 +1,51 @@
+.cases__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: #bd7b00;
+  font-size: 14px;
+  line-height: 1.55;
+  font-weight: 600;
+  padding: 20px;
+  border-radius: 100px;
+  text-decoration: none;
+  border: 1px solid black;
+  text-align: center;
+  text-transform: uppercase;
+  width: 430px;
+}
+
+.cases__button:hover {
+  background-color: white;
+  background-color: #bd7b00;
+  color: black;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1700px) {
+  .cases__button {
+    width: 350px;
+    height: 35px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .cases__button {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .cases__button {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cases__button {
+    font-size: 12px;
+    padding: 10px;
+    width: 220px;
+  }
+}

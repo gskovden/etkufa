@@ -1,0 +1,15 @@
+.cases__img {
+  width: 270px;
+}
+
+@media screen and (max-width: 1100px) {
+  .cases__img {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .cases__img {
+    width: 190px;
+  }
+}

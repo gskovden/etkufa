@@ -1,0 +1,19 @@
+.footer__link_main {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.footer__link_main:hover {
+  color: #bd7b00;
+}
+
+
+@media screen and (max-width: 1500px) {
+  .footer__link_main {
+    font-size: 18px;
+  }
+}

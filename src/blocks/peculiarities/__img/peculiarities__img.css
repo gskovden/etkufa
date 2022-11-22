@@ -1,0 +1,30 @@
+.peculiarities__img {
+  width: 700px;
+  align-self: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .peculiarities__img {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .peculiarities__img {
+    width: 400px;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .peculiarities__img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .peculiarities__img {
+    width: 280px;
+  }
+}

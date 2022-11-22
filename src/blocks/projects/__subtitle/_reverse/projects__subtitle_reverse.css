@@ -1,0 +1,9 @@
+.projects__subtitle_reverse {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 1000px) {
+  .projects__subtitle_reverse {
+    align-self: center;
+  }
+}

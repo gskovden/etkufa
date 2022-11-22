@@ -1,0 +1,10 @@
+.peculiarities__title_end {
+  justify-self: end;
+}
+
+@media screen and (max-width: 900px) {
+  .peculiarities__title_end {
+    justify-self: center;
+    text-align: center;
+  }
+}

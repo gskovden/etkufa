@@ -1,0 +1,23 @@
+.peculiarities__title {
+  font-size: 34px;
+  line-height: 1.55;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1100px) {
+  .peculiarities__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .peculiarities__title {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .peculiarities__title {
+    font-size: 24px;
+  }
+}

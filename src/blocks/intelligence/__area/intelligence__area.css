@@ -1,0 +1,18 @@
+.intelligence__area {
+  grid-area: text-area-first;
+  font-size: 20px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .intelligence__area {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .intelligence__area {
+    font-size: 14px;
+  }
+}

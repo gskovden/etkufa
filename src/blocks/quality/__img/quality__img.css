@@ -1,0 +1,31 @@
+.quality__img {
+  width: 360px;
+  margin-right: 200px;
+}
+
+.quality__img:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .quality__img {
+    margin-right: 100px;
+    width: 260px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .quality__img {
+    margin-right: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .quality__img {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  .quality__img:last-of-type {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.intelligence__item {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 1200px) {
+  .intelligence__item {
+    display: grid;
+    grid-template-areas:
+    "text-area-first"
+    "text-area-second"
+    "img";
+    justify-items: center;
+  }
+}

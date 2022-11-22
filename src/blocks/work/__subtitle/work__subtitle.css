@@ -1,0 +1,10 @@
+.work__subtitle {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.55;
+  text-decoration: underline;
+  grid-area: subtitle;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

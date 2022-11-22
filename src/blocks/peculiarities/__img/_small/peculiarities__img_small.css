@@ -1,0 +1,10 @@
+.peculiarities__img_small {
+  width: 300px;
+  justify-self: center;
+}
+
+@media screen and (max-width: 900px) {
+  .peculiarities__img_small {
+    width: 200px;
+  }
+}

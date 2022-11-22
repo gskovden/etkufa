@@ -1,0 +1,46 @@
+.topic__title {
+  color: #bd7b00;
+  font-size: 54px;
+  line-height: 1.55;
+  font-weight: 600;
+  text-transform: uppercase;
+  width: 1050px;
+}
+
+@media screen and (max-width: 1200px) {
+  .topic__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .topic__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .topic__title {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .topic__title {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .topic__title {
+    margin: 0;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .topic__title {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,11 @@
+.work__block {
+  display: grid;
+  grid-template-areas: 
+  "img subtitle"
+  "img text-area";
+  margin-bottom: 50px;
+}
+
+.work__block:last-of-type {
+  margin-bottom: 0;
+}

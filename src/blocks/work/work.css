@@ -1,0 +1,22 @@
+.work {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+  .work {
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .work {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

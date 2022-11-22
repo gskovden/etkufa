@@ -1,0 +1,10 @@
+.quality__images {
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 600px) {
+  .quality__images {
+    flex-direction: column;
+  }
+}

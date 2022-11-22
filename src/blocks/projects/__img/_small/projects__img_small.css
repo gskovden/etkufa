@@ -1,0 +1,15 @@
+.projects__img_small {
+  width: 335px;
+}
+
+@media screen and (max-width: 700px) {
+  .projects__img_small {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects__img_small {
+    width: 250px;
+  }
+}

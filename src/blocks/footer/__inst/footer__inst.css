@@ -1,0 +1,21 @@
+.footer__inst {
+  width: 25px;
+  margin: 0;
+  filter: grayscale(100%);
+}
+
+.footer__inst:hover {
+  filter: none;
+}
+
+@media screen and (max-width: 1500px) {
+  .footer__inst {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .footer__inst {
+    width: 15px;
+  }
+}

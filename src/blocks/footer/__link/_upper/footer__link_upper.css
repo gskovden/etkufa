@@ -1,0 +1,27 @@
+.footer__link_upper {
+  margin-bottom: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__link_upper:hover {
+  color: #bd7b00;
+}
+
+@media screen and (max-width: 1500px) {
+  .footer__link_upper {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .footer__link_upper {
+    margin-bottom: 5px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer__link_upper {
+    text-align: center;
+  }
+}

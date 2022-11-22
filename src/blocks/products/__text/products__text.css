@@ -1,0 +1,25 @@
+.products__text {
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.55;
+}
+
+@media screen and (max-width: 1300px) {
+  .products__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .products__text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .products__text {
+    font-size: 12px;
+  }
+}

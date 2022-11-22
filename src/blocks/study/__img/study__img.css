@@ -1,0 +1,9 @@
+.study__img {
+  width: 50%;
+}
+
+@media screen and (max-width: 900px) {
+  .study__img {
+    width: 100%;
+  }
+}

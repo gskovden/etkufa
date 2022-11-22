@@ -1,0 +1,11 @@
+.work__area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 900px) {
+  .work__area {
+    align-items: center;
+  }
+}

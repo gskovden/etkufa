@@ -1,0 +1,23 @@
+@media screen and (max-width: 900px) {
+  .study__img_medium {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .study__img_medium {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .study__img_medium {
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .study__img_medium {
+    width: 300px;
+  }
+}

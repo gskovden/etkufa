@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "OrchideaPro";
+  font-weight: 400;
+  src:
+    url(../fonts/OrchideaPro-Regular.woff) format('woff'),
+    url(../fonts/OrchideaPro-Regular.woff2) format('woff2'),
+    url(../fonts/OrchideaPro-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: "OrchideaPro";
+  font-weight: 700;
+  src:
+    url(../fonts/OrchideaPro-Bold.woff) format('woff'),
+    url(../fonts/OrchideaPro-Bold.woff2) format('woff2'),
+    url(../fonts/OrchideaPro-Bold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: "OrchideaPro";
+  font-weight: 900;
+  src:
+    url(../fonts/OrchideaPro-Black.woff) format('woff'),
+    url(../fonts/OrchideaPro-Black.woff2) format('woff2'),
+    url(../fonts/OrchideaPro-Black.ttf) format('ttf');
+}

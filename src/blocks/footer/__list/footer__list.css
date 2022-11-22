@@ -1,0 +1,19 @@
+.footer__list {
+  color: white;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 0 20px 0 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .footer__list {
+    margin: 0 0 10px 0;
+  }
+}
+

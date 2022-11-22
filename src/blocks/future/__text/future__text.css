@@ -1,0 +1,22 @@
+.future__text {
+  font-size: 20px;
+  line-height: 1.55;
+  margin: 0;
+  padding: 0;
+}
+
+.future__text:first-of-type {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  .future__text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .future__text {
+    font-size: 14px;
+  }
+}

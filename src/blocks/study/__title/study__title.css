@@ -1,0 +1,17 @@
+.study__title {
+  font-size: 32px;
+  line-height: 1.23;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 1200px) {
+  .study__title {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .study__title {
+    font-size: 24px;
+  }
+}

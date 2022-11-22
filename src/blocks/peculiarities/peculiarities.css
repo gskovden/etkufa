@@ -1,0 +1,20 @@
+.peculiarities {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .peculiarities {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .peculiarities {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}

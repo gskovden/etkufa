@@ -1,0 +1,13 @@
+.case {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 900px) {
+  .case {
+    align-items: center;
+    justify-content: center;
+  }
+}

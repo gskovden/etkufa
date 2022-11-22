@@ -1,0 +1,11 @@
+.study__img_small {
+  width: 400px;
+  position: relative;
+  float: right;
+}
+
+@media screen and (max-width: 1000px) {
+  .study__img_small {
+    width: 300px;
+  }
+}

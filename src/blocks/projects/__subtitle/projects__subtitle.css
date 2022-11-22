@@ -1,0 +1,30 @@
+.projects__subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  width: 50%;
+}
+
+@media screen and (max-width: 1200px) {
+  .projects__subtitle {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .projects__subtitle {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .projects__subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects__subtitle {
+    font-size: 16px;
+  }
+}

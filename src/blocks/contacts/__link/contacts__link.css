@@ -1,0 +1,24 @@
+.contacts__link {
+  font-size: 20px;
+  line-height: 1.55;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.contacts__link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1200px) {
+  .contacts__link {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .contacts__link {
+    font-size: 14px;
+  }
+}

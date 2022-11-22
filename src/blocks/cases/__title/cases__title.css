@@ -1,0 +1,14 @@
+.cases__title {
+  color: #3100c2;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .cases__title {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+}

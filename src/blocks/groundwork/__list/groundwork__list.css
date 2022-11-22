@@ -1,0 +1,17 @@
+.groundwork__list {
+  font-size: 20px;
+  line-height: 1.55;
+  list-style: inside;
+}
+
+@media screen and (max-width: 1000px) {
+  .groundwork__list {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .groundwork__list {
+    font-size: 14px;
+  }
+}

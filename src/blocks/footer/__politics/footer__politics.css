@@ -1,0 +1,12 @@
+.footer__politics {
+  color: #ffffff;
+  align-self: center;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.footer__politics:hover {
+  color: #bd7b00;
+}

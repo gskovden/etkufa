@@ -1,0 +1,22 @@
+.quality__title {
+  font-size: 52px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .quality__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .quality__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .quality__title {
+    font-size: 32px;
+  }
+}

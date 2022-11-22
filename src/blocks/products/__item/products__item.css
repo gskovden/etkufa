@@ -1,0 +1,12 @@
+.products__item {
+  display: flex;
+  flex-direction: column;
+  margin-right: 100px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1400px) {
+  .products__item {
+    margin-right: 0;
+  }
+}

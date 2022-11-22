@@ -1,0 +1,29 @@
+.about__image {
+  width: 695px;
+  grid-area: image;
+  justify-self: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .about__image {
+    width: 534px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about__image {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about__image {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .about__image {
+    width: 90%;
+  }
+}

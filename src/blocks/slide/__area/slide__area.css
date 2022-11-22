@@ -1,0 +1,11 @@
+.slide__area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 930px) {
+  .slide__area {
+    flex-direction: column-reverse;
+  }
+}

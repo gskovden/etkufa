@@ -1,0 +1,12 @@
+.completed__text {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .completed__text {
+    font-size: 14px;
+  }
+}

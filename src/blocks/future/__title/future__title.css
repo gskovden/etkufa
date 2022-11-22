@@ -1,0 +1,21 @@
+.future__title {
+  font-size: 32px;
+  line-height: 1.35;
+  position: relative;
+  top: 10px;
+  left: 40px;
+  float: right;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 1000px) {
+  .future__title {
+    position: unset;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .future__title {
+    font-size: 26px;
+  }
+}

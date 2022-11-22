@@ -1,0 +1,17 @@
+.about {
+  display: grid;
+  grid-template-areas: 
+  "block-area image"
+  "block-area title";
+  margin: 0 0 100px 0;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .about {
+    grid-template-areas: 
+    "image"
+    "title"
+    "block-area";
+  }
+}

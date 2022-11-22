@@ -1,0 +1,12 @@
+.peculiarities__item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  .peculiarities__item {
+    grid-template-columns: none;
+    gap: 0;
+  }
+}

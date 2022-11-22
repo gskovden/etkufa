@@ -1,0 +1,23 @@
+.completed {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin: 0 20px 0 20px;
+}
+
+@media screen and (max-width: 1500px) {
+  .completed {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .completed {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .completed {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

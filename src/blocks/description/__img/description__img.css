@@ -1,0 +1,22 @@
+.description__img {
+  width: 700px;
+  justify-self: center;
+}
+
+@media screen and (max-width: 1300px) {
+  .description__img {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .description__img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .description__img {
+    width: 300px;
+  }
+}

@@ -1,0 +1,11 @@
+.projects__block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .projects__block {
+    grid-template-columns: none;
+  }
+}

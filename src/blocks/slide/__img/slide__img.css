@@ -1,0 +1,53 @@
+.slide__img {
+  width: 390px;
+  height: 280px;
+}
+
+@media screen and (max-width: 1850px) {
+  .slide__img {
+    width: 300px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .slide__img {
+    width: 280px;
+    height: 180px;
+  }
+}
+
+@media screen and (max-width: 1470px) {
+  .slide__img {
+    width: 260px;
+    height: 160px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .slide__img {
+    width: 220px;
+    height: 140px;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .slide__img {
+    width: 200px;
+    height: 120px;
+  }
+}
+
+@media screen and (max-width: 930px) {
+  .slide__img {
+    width: 170px;
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .slide__img {
+    width: 150px;
+    height: 90px;
+  }
+}

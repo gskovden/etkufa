@@ -1,0 +1,10 @@
+.slide__block {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 930px) {
+  .slide__block {
+    align-items: center;
+  }
+}

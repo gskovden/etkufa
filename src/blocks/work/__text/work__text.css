@@ -1,0 +1,21 @@
+.work__text {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.55;
+  grid-area: text-area;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+  .work__text {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .work__text {
+    font-size: 14px;
+  }
+}

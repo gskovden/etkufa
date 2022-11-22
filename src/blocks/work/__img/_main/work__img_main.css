@@ -1,0 +1,15 @@
+.work__img_main {
+  width: 537px;
+}
+
+@media screen and (max-width: 1000px) {
+  .work__img_main {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .work__img_main {
+    width: 300px;
+  }
+}
